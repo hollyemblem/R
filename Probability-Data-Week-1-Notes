@@ -1,0 +1,106 @@
+Variables
+Numerical (quantitative)
+Categorical (qualitative)
+
+Numerical
+Continuous - infinite values within a given range. Height
+Discrete - specific set of numeric values. Count - e.g. cars
+
+
+Categorical
+Ordinal - levels have inherent ordering, e.g good, very good
+Regular Categorical - e.g. morning or afternoon person
+
+When two variables show a connection, they’re called associated (dependent)
+
+Association can be described as positive or negative.
+
+If not associated, they are independent.
+
+Observational Studies
+
+Observation: Doesn’t interfere with how the data arise
+Only establish an association, or correlation
+Past data is a retrospective
+Throughout the study, it’s prospective
+
+
+Experiment
+Randomly assign users 
+Establish causal connection
+Imposed by the researcher
+
+
+Extraneous variables that affect both the explanatory and response variable, are called confounding variables.
+
+
+
+Sampling & Sources of Data
+
+Explanatory Analysis for the sample at hand
+inference - concluding on the population
+For inference needs to be valid, sample needs to be representative
+
+Convenience Sample - easily accessible, more likely to be included
+Non-response - if only a non-random fraction of the randomly sample people respond to a survey
+Voluntary response -occurs when sample consists people who volunteer to respond as they have strong opinions on the issue
+
+Voluntary - no initial random sample
+Non-response - randomly sampled but non-random fraction of the sample
+
+
+Sampling Methods
+
+
+Simple Random Sample
+Randomly select cases from the population
+
+Stratified Sampling
+Divide the population into homogenous groups called strata then sample within each stratum
+
+Cluster Sample
+Population Clusters, sample a few clusters. Clusters are heterogeneous and similar to another.
+
+Multistage Sample
+Divide the population clusters
+Randomly sample a few clusters
+then sample within these clusters
+
+
+Experimental Design
+
+Control
+Compare treatment to control
+
+Randomise
+Randomly assign subject to treatments
+
+Replicate
+
+Block
+Block for pro status - divide the sample and assign to groups
+
+
+Blocking vs explanatory variables (factors)
+Factors - we can impose them
+Blocking - characteristics that the units come with
+
+Blocking is like stratifying. Blocking during assignment, stratifying during sampling
+
+
+Placebo - fake treatment
+
+Blinding - don’t know which experiment they’re in
+Double-blind - both units and researchers don’t know the group assignment
+
+Random Sample Assignment
+
+Random Sampling - 
+
+Random Assignment - only in experimental settings
+Random assignment allows for causality
+
+
+Random Sampling - randomly select from the population
+
+Random Assignment - randomly assign to groups
