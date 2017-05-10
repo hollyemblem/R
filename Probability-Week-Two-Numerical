@@ -1,0 +1,174 @@
+Visualising Numerical Data
+
+Scatterplots
+Relationship between two variables
+Identify the explanatory variable - which one impacts the other
+
+income as explanatory (X)
+Life expectancy as the response (Y)
+
+Doesn’t guarantee a causal relationship
+
+Strong relationship - not too much scatter
+
+
+Evaluating the relationship
+Direction of relationship - increasing or decreasing
+Shape of relationship - linear or curved
+Strength - strong with little scatter. Weak with lots of scatter
+Potential outliers - individual observations or a group. Investigate to ensure they’re not errors
+
+Naive way - is to exclude outliers
+
+
+Histogram
+
+Visualising distribution of a variable
+Binned into intervals
+Heights represent the number of cases
+View of data density
+Higher data = view is more common
+Useful for shape of the distribution
+
+Skewness
+Distributions are skewed to the side of the long tail
+Symmetric if no skew
+Left
+Right
+
+Modality
+Unimodal - one prominent peak (bell curve)
+Bimodal - two prominent peaks
+Uniform - no peak
+Multimodal More than two peaks
+
+Bimodal - two groups of data
+
+Uniform - no apparent trend in the data
+
+Imagine a smooth curve (like shape)
+
+Bin width can alter the story. Two wide - we lose detail. Two narrow, difficult to get a picture of the distribution.
+
+Dotplot
+Useful when individual values of interest
+Can get too busy
+
+Boxplot 
+Useful for highlighting outliers
+Shows median and interquartile range
+
+Determine skewness from box plot - imagine the histogram. Peak will be around the median and tail out from the box plot.
+
+Intensity map
+Useful for highlighting the spatial distribution
+
+
+
+Measures of Centre
+
+Center of the distribution
+Mean = average
+Median = midpoint (50th percentile)
+Mode = most frequent observation
+
+Sample statistics - point estimates for the unknown population parameters
+
+ Median - average of the middle of the two observations if no exact midpoint
+
+Longtail left - average is being pulled to the left by the long tail on the left.
+
+
+Skewness vs measures of center
+
+Left skewed
+mean < median
+
+Symmetric
+mean = median
+
+Right skewed 
+mean > median
+
+
+
+
+
+Measures of Spread
+
+Range: Difference between max and min
+
+Variance average squared deviation from the mean
+
+Standard Deviation
+
+Interquartile Range
+
+Variance:
+(first - the mean)^2+(next - the mean)^2 and so on until last one
+divided by sample size minus one
+
+Variance is ^2
+
+Why square the differences?
+Get rid of negatives so that negatives and positives don’t cancel each other when added together
+
+Increases larger deviations more than smaller ones so they are weighed more heavily
+
+
+Standard deviation
+Average deviation around the mean calculated as the square roots of the variance
+
+Formula is just the square root of the variation
+
+
+Variability vs Diversity
+
+
+Distributions where more observations are clustered around the centre are less variable.
+
+
+Interquartile range
+range of the middle 50% of the data. distance between the first and the third quartile.
+
+IQR = Q3 - Q1
+
+IQR more reliable than range is that it doesn’t rely on end points which could be potential outliers
+
+
+
+Robust Statistics
+
+Extreme observations have little effect
+
+
+Center: Robust median. Non-robust: mean
+Spread: IQR, non-robust; SD, range
+
+non-robust for symmetric
+robust for skewed
+
+
+
+Transforming Data
+
+Rescaling data using a function
+When data are skewed we transform to make easier to model
+
+
+Natural log transformation
+When much of the data cluster near zero and all observations are positive
+
+Log transformation
+make relationship between variables more linear and easier to model with simple methods
+
+
+Square root transformation
+
+Inverse divide one by variable
+
+Goals of transformations
+
+See data structure differently
+Reduce skew assist in modelling
+Straighten a nonlinear relationship in scatterplot
