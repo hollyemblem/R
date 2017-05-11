@@ -1,0 +1,91 @@
+Exploring Categorical Variables
+
+Categorical Variable
+Frequency Table / Bar plot
+
+Relative frequencies instead of counts on the y axis
+
+How are bar plots different?
+Used for categorical. histogram is for numerical
+
+x-axis on histogram is number line ordering of bars not interchangeable
+
+
+ Contingency Table
+
+Relative Frequencies
+Consider column
+
+Associated variables (dependent)
+
+
+Segmented bar plot
+Visualising two categorical variables
+Frequencies = counts. Not relative frequencies
+
+In order to explore relationship you need a visualisation of relative frequencies
+
+Mosaic plot
+Use contingency tables and segmented bar plots or mosaic plots to assess the relationship between two categorical variables.
+
+Marginal distribution - width of the bars
+
+Side-by-side box plots
+
+Relationship between numerical and categorical variable
+
+
+
+Introduction to inference
+
+Two competing claims
+
+Promotion and gender are independent - null hypothesis
+
+There is something going on - dependent - alternative hypothesis
+
+‘Fail to reject the null hypothesis’ - never declare it to true
+
+Burden of proof is on the alternative hypothesis
+
+
+Hypothesis testing framework
+start with a null hypothesis
+alternative hypothesis
+conduct a hypothesis test
+if test suggests no convincing evidence for alternative, stick with null
+if they do, go with alternative
+
+simulation scheme
+
+
+Difference between simulated rates. We can compare variance of the test to the distribution of differences here.
+
+Build a distribution of simulated differences
+
+
+
+Making a decision
+
+If results from simulations look like the data, we conclude the variables are independent.
+
+If results do not look like data, we can conclude the data provide evidence of a dependency for the variables
+
+0 = null value
+
+
+Summary
+Null and alternative hypothesis
+Simulate the experiment
+Evaluated the probability at least as extreme as the one observed in the original data
+Probability was low so we rejected the null hypothesis in favour of the alternative
+
+p-value : probability of observing an outcome…
+
+
+
+
+Reading Notes
+focus on the conceptual meaning of the standard deviation as a descriptor of variability rather than the formulas. usually 70% will be within one standard deviation and 95% will be within two.
+
+The dataset with the most repeated observations has the least variability, hence the lowest standard deviation.
