@@ -1,0 +1,123 @@
+Probability and Distributions
+
+Random process: We know what outcomes could happen but we don’t know which particular outcome will happen.
+
+Shuffle mode on iPod 
+
+Can also model a process as random even if it’s not truly random.
+
+P(A) = Probability of event A
+
+0=<P(A)=<1
+
+Frequentist interpretation
+The probability of an outcome is the proportion of times the outcome occur if we observed the random process an infinite number of times.
+
+Bayesian interpretation
+A bayesian interprets probability as a subjective degree of belief
+Largely popularised by revolutionary advance in computational technology and methods during the last twenty years.
+
+Allows for prior information to be integrated into the framework.
+
+
+Law of large numbers = as more observations are collected, the proportion of currencies with a particular outcome converges to the probability of that outcome.
+
+
+Common misunderstanding of law of large numbers: gamblers fallacy. While we know in a large number of tosses of a coin we’d expect 50/50, for any given toss the probability is exactly .5 regardless of what happened in the past.
+
+
+
+Disjoint Events and General Addition Rule
+
+Disjoint Events (mutually exclusive)
+Cannot happen at the same time
+
+p(A and B) = 0
+Cannot both fail and pass the same class
+
+ Non-disjoint events (can happen at the same time)
+
+P(A and B) != 0
+
+
+
+Union of disjoint events
+Probability of one event or the other happening
+
+P(A or B) = P(A) + P(B)
+
+
+Union of non-disjoint events
+P(A or B) =P(A) + P(B) - P(C)
+
+C = Overlap (A&B)
+
+Note: When A and B are disjoint, P(A and B) = 0, so the formula simplifies to P(A or B) = P(A)+P(B) - P(A and B)
+
+
+
+Sample Space
+A collection of all possible outcomes of a trial
+
+Writing out all possibilities
+
+
+Probability Distributions
+
+All possible outcomes and the probabilities with which they occur
+
+Rules:
+Be between 0-1
+The event listed must be disjoint
+The probabilities must total 1
+
+
+Complementary events
+
+two mutually exclusive events whose probabilities add up to 1
+
+
+Disjoint vs complementary
+
+do the sum of probabilities of two disjoint outcomes always add up to 1?
+Not necessarily if there are more than 2 outcomes in the sample space
+
+do the sum of probabilities of two complementary outcomes always add up to 1?
+Yes.
+
+
+
+Independence
+
+
+Two processes are independent if knowing the outcome of provides no useful information about the outcome of the other.
+
+Outcomes of two tosses of a coin are independent.
+
+outcomes of two draws from a deck of cards without replacement are dependent.
+
+Checking of independence:
+P(A | B) = P(A) than A and B are independent
+
+| means given
+
+Knowing B will give us useful information about A: dependent 
+
+Determining dependence based on sample data
+
+Observed difference between conditional probabilities
+Dependence
+Hypothesis test
+
+
+If difference is large, there is stronger evidence that the difference is real.
+
+If sample size is large, even a small difference can provide strong evidence of a real difference.
+
+Product use for independent events
+
+If A and B are independent P(A and B) = P(A) * P(B)
+
+
+
+Probability Examples
